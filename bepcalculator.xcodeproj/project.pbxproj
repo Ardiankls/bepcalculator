@@ -14,6 +14,8 @@
 		A0CAED7D2817F13600B2D420 /* bepcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CAED7C2817F13600B2D420 /* bepcalculatorTests.swift */; };
 		A0CAED872817F13600B2D420 /* bepcalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CAED862817F13600B2D420 /* bepcalculatorUITests.swift */; };
 		A0CAED892817F13600B2D420 /* bepcalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CAED882817F13600B2D420 /* bepcalculatorUITestsLaunchTests.swift */; };
+		A0CAED9628187F8A00B2D420 /* UnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CAED9528187F8A00B2D420 /* UnitView.swift */; };
+		A0CAED9828187F9E00B2D420 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CAED9728187F9E00B2D420 /* PriceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		A0CAED822817F13600B2D420 /* bepcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bepcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CAED862817F13600B2D420 /* bepcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bepcalculatorUITests.swift; sourceTree = "<group>"; };
 		A0CAED882817F13600B2D420 /* bepcalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bepcalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0CAED9528187F8A00B2D420 /* UnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitView.swift; sourceTree = "<group>"; };
+		A0CAED9728187F9E00B2D420 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				A0CAED6D2817F13400B2D420 /* ContentView.swift */,
 				A0CAED6F2817F13600B2D420 /* Assets.xcassets */,
 				A0CAED712817F13600B2D420 /* Preview Content */,
+				A0CAED9528187F8A00B2D420 /* UnitView.swift */,
+				A0CAED9728187F9E00B2D420 /* PriceView.swift */,
 			);
 			path = bepcalculator;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0CAED9828187F9E00B2D420 /* PriceView.swift in Sources */,
+				A0CAED9628187F8A00B2D420 /* UnitView.swift in Sources */,
 				A0CAED6E2817F13400B2D420 /* ContentView.swift in Sources */,
 				A0CAED6C2817F13400B2D420 /* bepcalculatorApp.swift in Sources */,
 			);
