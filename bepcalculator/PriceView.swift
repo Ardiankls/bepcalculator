@@ -41,17 +41,17 @@ struct PriceView: View {
 //                    Section(header: Text("Total Ammount of Unit")){
 //                        TextField("", text: $totalunit).keyboardType(.decimalPad)
 //                    }
-                    Section(header: Text("Fixed Cost")){
+                    Section(header: Text("Fixed Cost").foregroundColor(.black)){
                         TextField("", value: $fixedcost, formatter: currencyformat).keyboardType(.decimalPad)
                             .accessibilityLabel("fixedcost, textfield")
 
                     }
-                    Section(header: Text("Total Variable Cost")){
+                    Section(header: Text("Total Variable Cost").foregroundColor(.black)){
                         TextField("", value: $totalvariablecost, formatter: currencyformat).keyboardType(.decimalPad)
                             .accessibilityLabel("Total Variable Cost, textfield")
 
                     }
-                    Section(header: Text("Total Ammount of Unit")){
+                    Section(header: Text("Total Ammount of Unit").foregroundColor(.black)){
                         TextField("", value: $totalunit, formatter: currencyformat).keyboardType(.decimalPad)
                             .accessibilityLabel("Total Ammount of unit, textfield")
 
@@ -68,7 +68,7 @@ struct PriceView: View {
                     })
                         .listRowBackground(Color.blue)
                     
-                    Section(header: Text("Price Result")){
+                    Section(header: Text("Price Result").foregroundColor(.black)){
                         Text(String(priceresult))
                             .fontWeight(.bold)
                             .accessibilityLabel("Price Result, Text")
